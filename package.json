@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "name": "apn",
+        "raw": "apn@alpha",
+        "rawSpec": "alpha",
+        "scope": null,
+        "spec": "alpha",
+        "type": "tag"
+      },
+      "/Users/thudo/tuanhm/push-notification/worker-push-apple"
+    ]
+  ],
+  "_from": "apn@alpha",
+  "_id": "apn@2.0.0-alpha1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/apn",
+  "_nodeVersion": "6.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/apn-2.0.0-alpha1.tgz_1466983092225_0.7600031236652285"
+  },
+  "_npmUser": {
+    "email": "argon@mkbot.net",
+    "name": "argon"
+  },
+  "_npmVersion": "3.8.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "apn",
+    "raw": "apn@alpha",
+    "rawSpec": "alpha",
+    "scope": null,
+    "spec": "alpha",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/apn/-/apn-2.0.0-alpha1.tgz",
+  "_shasum": "7e1cc895d9cff5fb83c08a8d5410322879876579",
+  "_shrinkwrap": null,
+  "_spec": "apn@alpha",
+  "_where": "/Users/thudo/tuanhm/push-notification/worker-push-apple",
+  "author": {
+    "email": "argon@mkbot.net",
+    "name": "Andrew Naylor"
+  },
+  "bugs": {
+    "email": "argon@mkbot.net",
+    "url": "https://github.com/argon/node-apn/issues"
+  },
+  "contributors": [
+    {
+      "email": "argon@mkbot.net",
+      "name": "Andrew Naylor"
+    }
+  ],
+  "dependencies": {
+    "bluebird": "*",
+    "debug": "^2.1.3",
+    "http2": "git+https://github.com/argon/node-http2.git#master",
+    "node-forge": "^0.6.20"
+  },
+  "description": "An interface to the Apple Push Notification service for Node.js",
+  "devDependencies": {
+    "chai": "2.x",
+    "chai-as-promised": "*",
+    "mocha": "*",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.6.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7e1cc895d9cff5fb83c08a8d5410322879876579",
+    "tarball": "https://registry.npmjs.org/apn/-/apn-2.0.0-alpha1.tgz"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "ecmaVersion": 6,
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  },
+  "gitHead": "21923ec914f7aeba60840057ac6c4cff679f0136",
+  "homepage": "https://github.com/argon/node-apn#readme",
+  "jshintConfig": {
+    "node": true
+  },
+  "keywords": [
+    "apple",
+    "push",
+    "push notifications",
+    "iOS",
+    "apns",
+    "notifications"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "argon@mkbot.net",
+      "name": "argon"
+    }
+  ],
+  "name": "apn",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argon/node-apn.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "2.0.0-alpha1"
+}
